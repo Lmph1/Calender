@@ -1,0 +1,87 @@
+body
+{
+    margin: 0;
+}
+.container
+{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+}
+.month
+{
+    text-align: center;
+    background-color: crimson;
+    font-size: 30px;
+    padding: 8px;
+    color: white;
+}
+table th
+{
+    background-color: brown;
+    font-size: 20px;
+    color: white;
+
+}
+table, th, td
+{
+    border-collapse: collapse;
+    border: 1px solid white;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+th,td{
+    width: calc(100%/7);
+    border: 2px solid white;
+}
+td
+{
+    height: 100px;
+    position: relative;
+    background-color:antiquewhite;
+    background-size: cover;
+
+}
+.pic1
+{
+    background-image: url('1.jpg');
+    background-size: cover;
+}
+.pic2
+{
+    background-image: url('2.jpg');
+    background-size: cover;
+}
+.pic3
+{
+    background-image: url('3.jpg');
+    background-size: cover;
+}
+td img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+td p
+{
+    position: absolute;
+    top: 0;
+    color:black;
+}
+td:hover
+{
+    background-color: greenyellow;
+    color: crimson;
+}
+.box td
+{
+    background-color: gold;
+}
+.box td:hover
+{
+    background-color: greenyellow;
+}
